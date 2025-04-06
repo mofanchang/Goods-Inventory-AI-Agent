@@ -1,3 +1,29 @@
+## Goods Inventory AI Agent
+
+A Python-based AI agent for managing goods inventory, supporting natural language queries and smart recommendations.
+
+### Features
+- **Data Management**: Input inventory data for goods, stored in Supabase.
+- **Smart Dialogue**: Answer questions like "Does Coke need restocking?" with rule-based suggestions.
+
+### AI Highlights
+- **Language Model**: TinyLLaMA-1.1B for response generation.
+- **Vector Retrieval**: MiniLM-L6-v2 embeddings + Chroma database.
+- **Workflow**: LangGraph for retrieval and analysis.
+
+### Usage
+1. Install: `pip install -r requirements.txt`.
+2. Configure Supabase URL and Key.
+3. Launch Gradio interface to input data or ask questions.
+
+### Example
+- Input: Coke, purchased 100, sold 60, expires 2025-06-12.
+- Query: "Does Coke need restocking?"  
+  Response: "Stock at 40 bottles, below 50—suggest restocking."
+
+### Dependencies
+- pandas, gradio, langchain-community, transformers, torch, requests, chromadb
+
 
 ## 貨物進銷存 AI Agent
 
