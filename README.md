@@ -21,8 +21,7 @@ A Python-based AI agent for managing goods inventory, supporting natural languag
 - Query: "Does Coke need restocking?"  
   Response: "Stock at 40 bottles, below 50—suggest restocking."
 
-### Dependencies
-- pandas, gradio, langchain-community, transformers, torch, requests, chromadb
+
 
 
 ## 貨物進銷存 AI Agent
@@ -48,6 +47,5 @@ A Python-based AI agent for managing goods inventory, supporting natural languag
 - 問：「可樂需要進貨嗎？」  
   答：「庫存 40 瓶，低於 50，建議進貨。」
 
-### 依賴
-- pandas, gradio, langchain-community, transformers, torch, requests, chromadb
+
 
