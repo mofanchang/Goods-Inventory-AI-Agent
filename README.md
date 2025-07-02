@@ -1,7 +1,7 @@
 ## Goods Inventory AI Agent
 
 A Python-based AI agent for managing goods inventory, supporting natural language queries and smart recommendations.
-
+### Technical Flow Diagram!Untitled diagram _ Mermaid Chart-2025-07-02-033143.png
 ### Features
 - **Data Management**: Input inventory data for goods, stored in Supabase.
 - **Smart Dialogue**: Answer questions like "Does Coke need restocking?" with rule-based suggestions.
