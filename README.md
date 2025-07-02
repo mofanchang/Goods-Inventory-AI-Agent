@@ -2,7 +2,7 @@
 
 A Python-based AI agent for managing goods inventory, supporting natural language queries and smart recommendations.
 ### Technical Flow Diagram
-![Technical Flow Diagram](Untitled_diagram_Mermaid_Chart-2025-07-02-033143.png)
+![Technical Flow Diagram](technical-flow-diagram.png)
 ### Features
 - **Data Management**: Input inventory data for goods, stored in Supabase.
 - **Smart Dialogue**: Answer questions like "Does Coke need restocking?" with rule-based suggestions.
